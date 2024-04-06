@@ -172,4 +172,100 @@ a {
     top: 0;
     left: 0;
     opacity: 0.9;
+
+}
+
+
+.homePageQuote {
+    position: absolute;
+    height: 70%;
+    width: fit-content;
+    max-width: 60%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+    pointer-events: auto;
+}
+
+.homePageQuoteText {
+    font-size: 60px;
+    line-height: 113%;
+    font-family: "Reaver", serif;
+    letter-spacing: 5px;
+    font-weight: 600;
+    color: #ffffffee;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px #000;
+}
+
+.homePageDescription {
+    font-size: 20px;
+    font-family: "Radiance", sans-serif;
+    letter-spacing: 2px;
+    color: #ffffff90;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.homePageHorizontalBar {
+    width: 80px;
+    height: 3px;
+    min-height: 3px;
+    background-color: #ff6046;
+    border-radius: 1px;
+}
+
+.homePagePlayBtn {
+    min-width: 288px;
+    height: 78px;
+    border-radius: 6px;
+    border: 3px solid #ffffff90;
+    box-shadow: 0px 0px 5px #000;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+    transition-property: filter, transform, box-shadow;
+    transition-timing-function: ease-in-out;
+    transition-duration: .1s;
+}
+
+.w-48 {
+    width: 48px;
+    height: 48px;
+}
+
+.hpSteamIcon {
+    margin: 0px 8px;
+}
+
+.homePageRightSide {
+    flex-grow: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+}
+
+.HomePagePlayForFree {
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 2px 2px 3px #000;
+    font-family: Reaver, serif;
+    font-weight: 600;
+}
+
+.homePageDownload {
+    font-size: 15px;
+    color: #858585;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 3px #000;
 }
